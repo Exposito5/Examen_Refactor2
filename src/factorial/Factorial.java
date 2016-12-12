@@ -4,6 +4,11 @@ public class Factorial {
 
     public static void main(String[] args) {
 
+        fatorization();
+
+    }
+
+    private static void fatorization() {
         int value;
         int factor;
 
@@ -20,7 +25,6 @@ public class Factorial {
         }
 
         System.out.println(factor);
-
     }
 
 }
